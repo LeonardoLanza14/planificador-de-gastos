@@ -22,11 +22,11 @@ function App() {
   return (
     <>
       <header className="relative bg-blue-600 dark:bg-[#2b2a2a] py-8 shadow-lg max-h-72">
-        <h1 className=" uppercase text-center font-black text-4xl text-white">
+        <h1 className=" uppercase md:text-center text-left ml-5 md:left-0 font-black text-2xl md:text-4xl text-white">
           planificador de gastos
         </h1>
 
-        <div className=" absolute right-8 top-8">
+        <div className=" absolute md:right-8 right-2 top-8">
           <DarkModeButton />
         </div>
       </header>
